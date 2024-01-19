@@ -1,0 +1,1052 @@
+2024-01-18 08:48:59.1372 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 08:48:59.2541 DEBUG Hosting starting
+2024-01-18 08:48:59.3431 INFO User profile is available. Using 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:48:59.3936 DEBUG Reading data from file 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys\key-092314ad-5384-4982-8bac-0e7608bf4c35.xml'.
+2024-01-18 08:48:59.3936 DEBUG Found key {092314ad-5384-4982-8bac-0e7608bf4c35}.
+2024-01-18 08:48:59.3936 DEBUG Considering key {092314ad-5384-4982-8bac-0e7608bf4c35} with expiration date 2024-04-16 03:28:48Z as default key.
+2024-01-18 08:48:59.4059 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 08:48:59.4059 DEBUG Decrypting secret element using Windows DPAPI.
+2024-01-18 08:48:59.4059 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 08:48:59.4059 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 08:48:59.4059 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 08:48:59.4059 DEBUG Using key {092314ad-5384-4982-8bac-0e7608bf4c35} as the default key.
+2024-01-18 08:48:59.4059 DEBUG Key ring with default key {092314ad-5384-4982-8bac-0e7608bf4c35} was loaded during application startup.
+2024-01-18 08:48:59.5713 INFO Now listening on: http://localhost:5033
+2024-01-18 08:48:59.5713 DEBUG Loaded hosting startup assembly JWT
+2024-01-18 08:48:59.5713 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 08:48:59.5713 INFO Application started. Press Ctrl+C to shut down.
+2024-01-18 08:48:59.5713 INFO Hosting environment: Development
+2024-01-18 08:48:59.5713 INFO Content root path: C:\Users\kalaivani.ganesan\Desktop\Task\JWT\jwt
+2024-01-18 08:48:59.5713 DEBUG Hosting started
+2024-01-18 08:49:27.2232 DEBUG Connection id "0HN0NQH3GMPBU" accepted.
+2024-01-18 08:49:27.2232 DEBUG Connection id "0HN0NQH3GMPBV" accepted.
+2024-01-18 08:49:27.2232 DEBUG Connection id "0HN0NQH3GMPBU" started.
+2024-01-18 08:49:27.4801 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/index.html - - -
+2024-01-18 08:49:27.4863 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-01-18 08:49:27.5035 DEBUG Connection id "0HN0NQH3GMPBV" started.
+2024-01-18 08:49:27.5230 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-01-18 08:49:27.5230 DEBUG Request did not match any endpoints
+2024-01-18 08:49:27.6334 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-01-18 08:49:27.9197 DEBUG Response markup was updated to include browser refresh script injection.
+2024-01-18 08:49:27.9197 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:49:27.9197 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/index.html - 200 - text/html;charset=utf-8 441.4648ms
+2024-01-18 08:49:28.0643 INFO Request starting HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - - -
+2024-01-18 08:49:28.0643 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:49:28.0643 INFO Request finished HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript;+charset=utf-8 1.4911ms
+2024-01-18 08:49:30.3152 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - - -
+2024-01-18 08:49:30.3152 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-18 08:49:30.3152 DEBUG Request did not match any endpoints
+2024-01-18 08:49:30.4513 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:49:30.4513 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 136.4639ms
+2024-01-18 08:49:53.4949 INFO Request starting HTTP/1.1 GET http://localhost:5033/Register - - -
+2024-01-18 08:49:53.5027 DEBUG 1 candidate(s) found for the request path '/Register'
+2024-01-18 08:49:53.5027 DEBUG Endpoint 'UserRegister.RegisterController.GetUser (JWT)' with route pattern 'Register' is valid for the request path '/Register'
+2024-01-18 08:49:53.5027 DEBUG Request matched endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 08:49:53.5027 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 08:49:53.5027 WARN Failed to determine the https port for redirect.
+2024-01-18 08:49:53.6085 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 08:49:53.6296 DEBUG Policy authentication schemes  did not succeed
+2024-01-18 08:49:53.6296 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-18 08:49:53.6296 INFO AuthenticationScheme: Bearer was challenged.
+2024-01-18 08:49:53.6296 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:49:53.6296 INFO Request finished HTTP/1.1 GET http://localhost:5033/Register - 401 0 - 143.9467ms
+2024-01-18 08:50:22.6190 INFO Request starting HTTP/1.1 GET http://localhost:5033/Register - - -
+2024-01-18 08:50:22.6190 DEBUG 1 candidate(s) found for the request path '/Register'
+2024-01-18 08:50:22.6190 DEBUG Endpoint 'UserRegister.RegisterController.GetUser (JWT)' with route pattern 'Register' is valid for the request path '/Register'
+2024-01-18 08:50:22.6190 DEBUG Request matched endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 08:50:22.6190 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 08:50:22.6190 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 08:50:22.6190 DEBUG Policy authentication schemes  did not succeed
+2024-01-18 08:50:22.6190 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-18 08:50:22.6190 INFO AuthenticationScheme: Bearer was challenged.
+2024-01-18 08:50:22.6190 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:50:22.6190 INFO Request finished HTTP/1.1 GET http://localhost:5033/Register - 401 0 - 6.7758ms
+2024-01-18 08:50:23.9541 INFO Request starting HTTP/1.1 GET http://localhost:5033/Register - - -
+2024-01-18 08:50:23.9541 DEBUG 1 candidate(s) found for the request path '/Register'
+2024-01-18 08:50:23.9541 DEBUG Endpoint 'UserRegister.RegisterController.GetUser (JWT)' with route pattern 'Register' is valid for the request path '/Register'
+2024-01-18 08:50:23.9541 DEBUG Request matched endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 08:50:23.9546 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 08:50:23.9546 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 08:50:23.9546 DEBUG Policy authentication schemes  did not succeed
+2024-01-18 08:50:23.9546 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-18 08:50:23.9546 INFO AuthenticationScheme: Bearer was challenged.
+2024-01-18 08:50:23.9546 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:50:23.9546 INFO Request finished HTTP/1.1 GET http://localhost:5033/Register - 401 0 - 2.4497ms
+2024-01-18 08:50:24.9950 INFO Request starting HTTP/1.1 GET http://localhost:5033/Register - - -
+2024-01-18 08:50:24.9950 DEBUG 1 candidate(s) found for the request path '/Register'
+2024-01-18 08:50:24.9950 DEBUG Endpoint 'UserRegister.RegisterController.GetUser (JWT)' with route pattern 'Register' is valid for the request path '/Register'
+2024-01-18 08:50:24.9950 DEBUG Request matched endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 08:50:24.9950 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 08:50:24.9950 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 08:50:24.9950 DEBUG Policy authentication schemes  did not succeed
+2024-01-18 08:50:24.9950 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-18 08:50:24.9950 INFO AuthenticationScheme: Bearer was challenged.
+2024-01-18 08:50:24.9950 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:50:24.9950 INFO Request finished HTTP/1.1 GET http://localhost:5033/Register - 401 0 - 5.8527ms
+2024-01-18 08:50:35.3989 DEBUG Connection id "0HN0NQH3GMPBV" received FIN.
+2024-01-18 08:50:35.3989 DEBUG Connection id "0HN0NQH3GMPBV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 08:50:35.3989 DEBUG Connection id "0HN0NQH3GMPBV" disconnecting.
+2024-01-18 08:50:35.3989 DEBUG Connection id "0HN0NQH3GMPBV" stopped.
+2024-01-18 08:50:50.8379 INFO Request starting HTTP/1.1 POST http://localhost:5033/Register/Login - application/json 64
+2024-01-18 08:50:50.8379 DEBUG 1 candidate(s) found for the request path '/Register/Login'
+2024-01-18 08:50:50.8379 DEBUG Endpoint 'UserRegister.RegisterController.Login (JWT)' with route pattern 'Register/Login' is valid for the request path '/Register/Login'
+2024-01-18 08:50:50.8379 DEBUG Request matched endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 08:50:50.8379 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 08:50:50.8379 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 08:50:50.8379 INFO Executing endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 08:50:50.9200 INFO Route matched with {action = "Login", controller = "Register"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(UserData.Login) on controller UserRegister.RegisterController (JWT).
+2024-01-18 08:50:50.9200 DEBUG Execution plan of authorization filters (in the following order): None
+2024-01-18 08:50:50.9200 DEBUG Execution plan of resource filters (in the following order): None
+2024-01-18 08:50:50.9200 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 08:50:50.9200 DEBUG Execution plan of exception filters (in the following order): None
+2024-01-18 08:50:50.9200 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 08:50:50.9200 DEBUG Executing controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 08:50:51.0986 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-01-18 08:50:51.1297 DEBUG Executed controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 08:50:51.1343 DEBUG Attempting to bind parameter 'login' of type 'UserData.Login' ...
+2024-01-18 08:50:51.1343 DEBUG Attempting to bind parameter 'login' of type 'UserData.Login' using the name '' in request data ...
+2024-01-18 08:50:51.1343 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 08:50:51.1343 DEBUG Connection id "0HN0NQH3GMPBU", Request id "0HN0NQH3GMPBU:00000008": started reading request body.
+2024-01-18 08:50:51.1343 DEBUG Connection id "0HN0NQH3GMPBU", Request id "0HN0NQH3GMPBU:00000008": done reading request body.
+2024-01-18 08:50:51.1506 DEBUG JSON input formatter succeeded, deserializing to type 'UserData.Login'
+2024-01-18 08:50:51.1506 DEBUG Done attempting to bind parameter 'login' of type 'UserData.Login'.
+2024-01-18 08:50:51.1506 DEBUG Done attempting to bind parameter 'login' of type 'UserData.Login'.
+2024-01-18 08:50:51.1506 DEBUG Attempting to validate the bound parameter 'login' of type 'UserData.Login' ...
+2024-01-18 08:50:51.1506 DEBUG Done attempting to validate the bound parameter 'login' of type 'UserData.Login'.
+2024-01-18 08:50:52.0176 DEBUG Entity Framework Core 8.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.1' with options: None
+2024-01-18 08:50:52.0994 DEBUG Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(user => user.emailid == __login_emailid_0)'
+2024-01-18 08:50:52.3628 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.userid (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.conformpassword (string) Required, 1], [Property: User.emailid (string) Required, 2], [Property: User.mobilenumber (long) Required, 3], [Property: User.password (string) Required, 4], [Property: User.passwordhash (byte[]), 5], [Property: User.passwordsalt (byte[]), 6], [Property: User.username (string) Required, 7] }
+        SELECT TOP(1) u.userid, u.conformpassword, u.emailid, u.mobilenumber, u.password, u.passwordhash, u.passwordsalt, u.username
+        FROM user AS u
+        WHERE u.emailid == @__login_emailid_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    UserDatabase.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-01-18 08:50:52.4042 DEBUG Creating DbConnection.
+2024-01-18 08:50:52.4316 DEBUG Created DbConnection. (23ms).
+2024-01-18 08:50:52.4316 DEBUG Opening connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:50:52.7238 DEBUG Opened connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:50:52.7238 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-01-18 08:50:52.7238 DEBUG Created DbCommand for 'ExecuteReader' (4ms).
+2024-01-18 08:50:52.7459 DEBUG Initialized DbCommand for 'ExecuteReader' (19ms).
+2024-01-18 08:50:52.7459 DEBUG Executing DbCommand [Parameters=[@__login_emailid_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+WHERE [u].[emailid] = @__login_emailid_0
+2024-01-18 08:50:52.8023 INFO Executed DbCommand (47ms) [Parameters=[@__login_emailid_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+WHERE [u].[emailid] = @__login_emailid_0
+2024-01-18 08:50:52.8064 DEBUG Closing data reader to 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:50:52.8064 DEBUG A data reader for 'sampleDB' on server 'ASPLAP2690' is being disposed after spending 6ms reading results.
+2024-01-18 08:50:52.8064 DEBUG Closing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:50:52.8064 DEBUG Closed connection to database 'sampleDB' on server 'ASPLAP2690' (6ms).
+2024-01-18 08:50:52.8520 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 08:50:52.8520 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-01-18 08:50:52.8520 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-01-18 08:50:52.8520 INFO Executing ObjectResult, writing value of type 'System.String'.
+2024-01-18 08:50:52.8520 INFO Executed action UserRegister.RegisterController.Login (JWT) in 1934.4807ms
+2024-01-18 08:50:52.8520 INFO Executed endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 08:50:52.8520 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:50:52.8682 DEBUG 'ApplicationDbContext' disposed.
+2024-01-18 08:50:52.8682 DEBUG Disposing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:50:52.8682 DEBUG Disposed connection to database '' on server '' (3ms).
+2024-01-18 08:50:52.8682 INFO Request finished HTTP/1.1 POST http://localhost:5033/Register/Login - 200 - text/plain;+charset=utf-8 2041.3474ms
+2024-01-18 08:51:06.6130 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/index.html - - -
+2024-01-18 08:51:06.6130 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-01-18 08:51:06.6130 DEBUG Request did not match any endpoints
+2024-01-18 08:51:06.6130 DEBUG Connection id "0HN0NQH3GMPC0" accepted.
+2024-01-18 08:51:06.6130 DEBUG Connection id "0HN0NQH3GMPC0" started.
+2024-01-18 08:51:06.6130 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-01-18 08:51:06.6130 DEBUG Response markup was updated to include browser refresh script injection.
+2024-01-18 08:51:06.6130 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:51:06.6130 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/index.html - 200 - text/html;charset=utf-8 7.8034ms
+2024-01-18 08:51:06.6341 INFO Request starting HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - - -
+2024-01-18 08:51:06.6341 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:51:06.6341 INFO Request finished HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript;+charset=utf-8 0.3146ms
+2024-01-18 08:51:06.7616 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - - -
+2024-01-18 08:51:06.7616 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-18 08:51:06.7616 DEBUG Request did not match any endpoints
+2024-01-18 08:51:06.7679 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:51:06.7679 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 6.4510ms
+2024-01-18 08:51:12.5196 INFO Request starting HTTP/1.1 GET http://localhost:5033/Register - - -
+2024-01-18 08:51:12.5196 DEBUG 1 candidate(s) found for the request path '/Register'
+2024-01-18 08:51:12.5196 DEBUG Endpoint 'UserRegister.RegisterController.GetUser (JWT)' with route pattern 'Register' is valid for the request path '/Register'
+2024-01-18 08:51:12.5196 DEBUG Request matched endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 08:51:12.5196 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 08:51:12.5196 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 08:51:12.5196 INFO Executing endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 08:51:12.5196 INFO Route matched with {action = "GetUser", controller = "Register"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[UserData.User] GetUser() on controller UserRegister.RegisterController (JWT).
+2024-01-18 08:51:12.5196 DEBUG Execution plan of authorization filters (in the following order): None
+2024-01-18 08:51:12.5196 DEBUG Execution plan of resource filters (in the following order): None
+2024-01-18 08:51:12.5196 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 08:51:12.5196 DEBUG Execution plan of exception filters (in the following order): None
+2024-01-18 08:51:12.5196 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 08:51:12.5196 DEBUG Executing controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 08:51:12.5196 DEBUG Executed controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 08:51:12.5514 INFO User List !!!!!
+2024-01-18 08:51:12.5716 DEBUG Entity Framework Core 8.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.1' with options: None
+2024-01-18 08:51:12.5716 DEBUG Compiling query expression: 
+'DbSet<User>()'
+2024-01-18 08:51:12.5716 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.userid (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.conformpassword (string) Required, 1], [Property: User.emailid (string) Required, 2], [Property: User.mobilenumber (long) Required, 3], [Property: User.password (string) Required, 4], [Property: User.passwordhash (byte[]), 5], [Property: User.passwordsalt (byte[]), 6], [Property: User.username (string) Required, 7] }
+        SELECT u.userid, u.conformpassword, u.emailid, u.mobilenumber, u.password, u.passwordhash, u.passwordsalt, u.username
+        FROM user AS u), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    UserDatabase.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-01-18 08:51:12.5716 DEBUG Creating DbConnection.
+2024-01-18 08:51:12.5716 DEBUG Created DbConnection. (0ms).
+2024-01-18 08:51:12.5716 DEBUG Opening connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:51:12.5716 DEBUG Opened connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:51:12.5716 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-01-18 08:51:12.5716 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 08:51:12.5716 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 08:51:12.5716 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+2024-01-18 08:51:12.5879 INFO Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+2024-01-18 08:51:12.6306 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 08:51:12.6629 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 08:51:12.6629 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 08:51:12.6629 DEBUG Closing data reader to 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:51:12.6629 DEBUG A data reader for 'sampleDB' on server 'ASPLAP2690' is being disposed after spending 75ms reading results.
+2024-01-18 08:51:12.6629 DEBUG Closing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:51:12.6629 DEBUG Closed connection to database 'sampleDB' on server 'ASPLAP2690' (0ms).
+2024-01-18 08:51:12.6629 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 08:51:12.6629 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-01-18 08:51:12.6629 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-01-18 08:51:12.6629 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-18 08:51:12.6629 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-18 08:51:12.6629 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-18 08:51:12.6629 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserData.User, JWT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-18 08:51:12.6776 INFO Executed action UserRegister.RegisterController.GetUser (JWT) in 153.5639ms
+2024-01-18 08:51:12.6776 INFO Executed endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 08:51:12.6776 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:51:12.6776 DEBUG 'ApplicationDbContext' disposed.
+2024-01-18 08:51:12.6776 DEBUG Disposing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:51:12.6776 DEBUG Disposed connection to database '' on server '' (0ms).
+2024-01-18 08:51:12.6776 INFO Request finished HTTP/1.1 GET http://localhost:5033/Register - 200 - application/json;+charset=utf-8 158.4297ms
+2024-01-18 08:51:38.5428 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/index.html - - -
+2024-01-18 08:51:38.5428 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-01-18 08:51:38.5428 DEBUG Request did not match any endpoints
+2024-01-18 08:51:38.5532 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-01-18 08:51:38.5532 DEBUG Response markup was updated to include browser refresh script injection.
+2024-01-18 08:51:38.5532 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:51:38.5532 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/index.html - 200 - text/html;charset=utf-8 10.6385ms
+2024-01-18 08:51:38.5820 INFO Request starting HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - - -
+2024-01-18 08:51:38.5820 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:51:38.5820 INFO Request finished HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript;+charset=utf-8 0.1655ms
+2024-01-18 08:51:38.6867 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - - -
+2024-01-18 08:51:38.6867 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-18 08:51:38.6867 DEBUG Request did not match any endpoints
+2024-01-18 08:51:38.6911 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:51:38.6911 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 4.4172ms
+2024-01-18 08:52:00.8166 INFO Request starting HTTP/1.1 POST http://localhost:5033/Register/Login - application/json 53
+2024-01-18 08:52:00.8166 DEBUG 1 candidate(s) found for the request path '/Register/Login'
+2024-01-18 08:52:00.8166 DEBUG Endpoint 'UserRegister.RegisterController.Login (JWT)' with route pattern 'Register/Login' is valid for the request path '/Register/Login'
+2024-01-18 08:52:00.8166 DEBUG Request matched endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 08:52:00.8166 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 08:52:00.8166 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 08:52:00.8166 INFO Executing endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 08:52:00.8166 INFO Route matched with {action = "Login", controller = "Register"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(UserData.Login) on controller UserRegister.RegisterController (JWT).
+2024-01-18 08:52:00.8166 DEBUG Execution plan of authorization filters (in the following order): None
+2024-01-18 08:52:00.8166 DEBUG Execution plan of resource filters (in the following order): None
+2024-01-18 08:52:00.8166 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 08:52:00.8166 DEBUG Execution plan of exception filters (in the following order): None
+2024-01-18 08:52:00.8166 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 08:52:00.8166 DEBUG Executing controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 08:52:00.8166 DEBUG Executed controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 08:52:00.8166 DEBUG Attempting to bind parameter 'login' of type 'UserData.Login' ...
+2024-01-18 08:52:00.8166 DEBUG Attempting to bind parameter 'login' of type 'UserData.Login' using the name '' in request data ...
+2024-01-18 08:52:00.8166 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 08:52:00.8166 DEBUG Connection id "0HN0NQH3GMPBU", Request id "0HN0NQH3GMPBU:00000010": started reading request body.
+2024-01-18 08:52:00.8166 DEBUG Connection id "0HN0NQH3GMPBU", Request id "0HN0NQH3GMPBU:00000010": done reading request body.
+2024-01-18 08:52:00.8166 DEBUG JSON input formatter succeeded, deserializing to type 'UserData.Login'
+2024-01-18 08:52:00.8166 DEBUG Done attempting to bind parameter 'login' of type 'UserData.Login'.
+2024-01-18 08:52:00.8166 DEBUG Done attempting to bind parameter 'login' of type 'UserData.Login'.
+2024-01-18 08:52:00.8166 DEBUG Attempting to validate the bound parameter 'login' of type 'UserData.Login' ...
+2024-01-18 08:52:00.8166 DEBUG Done attempting to validate the bound parameter 'login' of type 'UserData.Login'.
+2024-01-18 08:52:00.9243 DEBUG Entity Framework Core 8.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.1' with options: None
+2024-01-18 08:52:00.9296 DEBUG Creating DbConnection.
+2024-01-18 08:52:00.9296 DEBUG Created DbConnection. (0ms).
+2024-01-18 08:52:00.9296 DEBUG Opening connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:52:00.9296 DEBUG Opened connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:52:00.9296 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-01-18 08:52:00.9296 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 08:52:00.9296 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 08:52:00.9296 DEBUG Executing DbCommand [Parameters=[@__login_emailid_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+WHERE [u].[emailid] = @__login_emailid_0
+2024-01-18 08:52:00.9296 INFO Executed DbCommand (1ms) [Parameters=[@__login_emailid_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+WHERE [u].[emailid] = @__login_emailid_0
+2024-01-18 08:52:00.9296 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 08:52:00.9296 DEBUG Closing data reader to 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:52:00.9296 DEBUG A data reader for 'sampleDB' on server 'ASPLAP2690' is being disposed after spending 0ms reading results.
+2024-01-18 08:52:00.9296 DEBUG Closing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:52:00.9296 DEBUG Closed connection to database 'sampleDB' on server 'ASPLAP2690' (0ms).
+2024-01-18 08:52:00.9530 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 08:52:00.9530 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-01-18 08:52:00.9530 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-01-18 08:52:00.9530 INFO Executing ObjectResult, writing value of type 'System.String'.
+2024-01-18 08:52:00.9530 INFO Executed action UserRegister.RegisterController.Login (JWT) in 131.8067ms
+2024-01-18 08:52:00.9530 INFO Executed endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 08:52:00.9530 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:52:00.9530 DEBUG 'ApplicationDbContext' disposed.
+2024-01-18 08:52:00.9530 DEBUG Disposing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:52:00.9530 DEBUG Disposed connection to database '' on server '' (0ms).
+2024-01-18 08:52:00.9530 INFO Request finished HTTP/1.1 POST http://localhost:5033/Register/Login - 200 - text/plain;+charset=utf-8 137.2479ms
+2024-01-18 08:52:10.4640 DEBUG Connection id "0HN0NQH3GMPC0" received FIN.
+2024-01-18 08:52:10.4640 INFO Request starting HTTP/1.1 GET http://localhost:5033/Register - - -
+2024-01-18 08:52:10.4640 DEBUG 1 candidate(s) found for the request path '/Register'
+2024-01-18 08:52:10.4640 DEBUG Endpoint 'UserRegister.RegisterController.GetUser (JWT)' with route pattern 'Register' is valid for the request path '/Register'
+2024-01-18 08:52:10.4640 DEBUG Request matched endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 08:52:10.4640 DEBUG Connection id "0HN0NQH3GMPC0" disconnecting.
+2024-01-18 08:52:10.4640 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 08:52:10.4640 DEBUG Connection id "0HN0NQH3GMPC0" stopped.
+2024-01-18 08:52:10.4640 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 08:52:10.4640 DEBUG Policy authentication schemes  did not succeed
+2024-01-18 08:52:10.4640 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-18 08:52:10.4640 INFO AuthenticationScheme: Bearer was challenged.
+2024-01-18 08:52:10.4640 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:52:10.4640 INFO Request finished HTTP/1.1 GET http://localhost:5033/Register - 401 0 - 1.3919ms
+2024-01-18 08:52:10.4640 DEBUG Connection id "0HN0NQH3GMPC0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 08:53:16.9250 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/index.html - - -
+2024-01-18 08:53:16.9250 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-01-18 08:53:16.9250 DEBUG Request did not match any endpoints
+2024-01-18 08:53:16.9250 DEBUG Connection id "0HN0NQH3GMPC1" accepted.
+2024-01-18 08:53:16.9250 DEBUG Connection id "0HN0NQH3GMPC1" started.
+2024-01-18 08:53:16.9250 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-01-18 08:53:16.9250 DEBUG Response markup was updated to include browser refresh script injection.
+2024-01-18 08:53:16.9250 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:53:16.9250 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/index.html - 200 - text/html;charset=utf-8 5.6250ms
+2024-01-18 08:53:16.9471 INFO Request starting HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - - -
+2024-01-18 08:53:16.9471 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:53:16.9471 INFO Request finished HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript;+charset=utf-8 0.1792ms
+2024-01-18 08:53:17.0966 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - - -
+2024-01-18 08:53:17.0966 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-18 08:53:17.0966 DEBUG Request did not match any endpoints
+2024-01-18 08:53:17.0966 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:53:17.0966 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 2.5348ms
+2024-01-18 08:53:33.5138 INFO Request starting HTTP/1.1 POST http://localhost:5033/Register/Login - application/json 53
+2024-01-18 08:53:33.5138 DEBUG 1 candidate(s) found for the request path '/Register/Login'
+2024-01-18 08:53:33.5138 DEBUG Endpoint 'UserRegister.RegisterController.Login (JWT)' with route pattern 'Register/Login' is valid for the request path '/Register/Login'
+2024-01-18 08:53:33.5138 DEBUG Request matched endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 08:53:33.5138 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 08:53:33.5138 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 08:53:33.5138 INFO Executing endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 08:53:33.5174 INFO Route matched with {action = "Login", controller = "Register"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(UserData.Login) on controller UserRegister.RegisterController (JWT).
+2024-01-18 08:53:33.5174 DEBUG Execution plan of authorization filters (in the following order): None
+2024-01-18 08:53:33.5174 DEBUG Execution plan of resource filters (in the following order): None
+2024-01-18 08:53:33.5174 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 08:53:33.5174 DEBUG Execution plan of exception filters (in the following order): None
+2024-01-18 08:53:33.5174 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 08:53:33.5174 DEBUG Executing controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 08:53:33.5174 DEBUG Executed controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 08:53:33.5174 DEBUG Attempting to bind parameter 'login' of type 'UserData.Login' ...
+2024-01-18 08:53:33.5174 DEBUG Attempting to bind parameter 'login' of type 'UserData.Login' using the name '' in request data ...
+2024-01-18 08:53:33.5174 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 08:53:33.5174 DEBUG Connection id "0HN0NQH3GMPBU", Request id "0HN0NQH3GMPBU:00000015": started reading request body.
+2024-01-18 08:53:33.5174 DEBUG Connection id "0HN0NQH3GMPBU", Request id "0HN0NQH3GMPBU:00000015": done reading request body.
+2024-01-18 08:53:33.5174 DEBUG JSON input formatter succeeded, deserializing to type 'UserData.Login'
+2024-01-18 08:53:33.5174 DEBUG Done attempting to bind parameter 'login' of type 'UserData.Login'.
+2024-01-18 08:53:33.5174 DEBUG Done attempting to bind parameter 'login' of type 'UserData.Login'.
+2024-01-18 08:53:33.5174 DEBUG Attempting to validate the bound parameter 'login' of type 'UserData.Login' ...
+2024-01-18 08:53:33.5174 DEBUG Done attempting to validate the bound parameter 'login' of type 'UserData.Login'.
+2024-01-18 08:53:33.5174 DEBUG Entity Framework Core 8.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.1' with options: None
+2024-01-18 08:53:33.5174 DEBUG Creating DbConnection.
+2024-01-18 08:53:33.5174 DEBUG Created DbConnection. (0ms).
+2024-01-18 08:53:33.5174 DEBUG Opening connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:53:33.5174 DEBUG Opened connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:53:33.5174 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-01-18 08:53:33.5174 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 08:53:33.5174 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 08:53:33.5174 DEBUG Executing DbCommand [Parameters=[@__login_emailid_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+WHERE [u].[emailid] = @__login_emailid_0
+2024-01-18 08:53:33.5174 INFO Executed DbCommand (2ms) [Parameters=[@__login_emailid_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+WHERE [u].[emailid] = @__login_emailid_0
+2024-01-18 08:53:33.5174 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 08:53:33.5174 DEBUG Closing data reader to 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:53:33.5174 DEBUG A data reader for 'sampleDB' on server 'ASPLAP2690' is being disposed after spending 0ms reading results.
+2024-01-18 08:53:33.5174 DEBUG Closing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:53:33.5174 DEBUG Closed connection to database 'sampleDB' on server 'ASPLAP2690' (0ms).
+2024-01-18 08:53:33.5174 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 08:53:33.5174 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-01-18 08:53:33.5174 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-01-18 08:53:33.5174 INFO Executing ObjectResult, writing value of type 'System.String'.
+2024-01-18 08:53:33.5174 INFO Executed action UserRegister.RegisterController.Login (JWT) in 7.0083ms
+2024-01-18 08:53:33.5174 INFO Executed endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 08:53:33.5174 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:53:33.5174 DEBUG 'ApplicationDbContext' disposed.
+2024-01-18 08:53:33.5174 DEBUG Disposing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:53:33.5174 DEBUG Disposed connection to database '' on server '' (0ms).
+2024-01-18 08:53:33.5174 INFO Request finished HTTP/1.1 POST http://localhost:5033/Register/Login - 200 - text/plain;+charset=utf-8 11.3667ms
+2024-01-18 08:54:04.5875 INFO Request starting HTTP/1.1 GET http://localhost:5033/Register - - -
+2024-01-18 08:54:04.5875 DEBUG 1 candidate(s) found for the request path '/Register'
+2024-01-18 08:54:04.5875 DEBUG Endpoint 'UserRegister.RegisterController.GetUser (JWT)' with route pattern 'Register' is valid for the request path '/Register'
+2024-01-18 08:54:04.5875 DEBUG Request matched endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 08:54:04.5875 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 08:54:04.6488 DEBUG Successfully validated the token.
+2024-01-18 08:54:04.6488 DEBUG AuthenticationScheme: Bearer was successfully authenticated.
+2024-01-18 08:54:04.6488 DEBUG Authorization was successful.
+2024-01-18 08:54:04.6488 INFO Executing endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 08:54:04.6488 INFO Route matched with {action = "GetUser", controller = "Register"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[UserData.User] GetUser() on controller UserRegister.RegisterController (JWT).
+2024-01-18 08:54:04.6488 DEBUG Execution plan of authorization filters (in the following order): None
+2024-01-18 08:54:04.6488 DEBUG Execution plan of resource filters (in the following order): None
+2024-01-18 08:54:04.6488 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 08:54:04.6488 DEBUG Execution plan of exception filters (in the following order): None
+2024-01-18 08:54:04.6488 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 08:54:04.6488 DEBUG Executing controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 08:54:04.6488 DEBUG Executed controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 08:54:04.6488 INFO User List !!!!!
+2024-01-18 08:54:04.6488 DEBUG Entity Framework Core 8.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.1' with options: None
+2024-01-18 08:54:04.6488 DEBUG Creating DbConnection.
+2024-01-18 08:54:04.6488 DEBUG Created DbConnection. (0ms).
+2024-01-18 08:54:04.6488 DEBUG Opening connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:54:04.6488 DEBUG Opened connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:54:04.6488 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-01-18 08:54:04.6488 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 08:54:04.6488 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 08:54:04.6488 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+2024-01-18 08:54:04.6488 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+2024-01-18 08:54:04.6488 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 08:54:04.6488 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 08:54:04.6488 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 08:54:04.6488 DEBUG Closing data reader to 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:54:04.6488 DEBUG A data reader for 'sampleDB' on server 'ASPLAP2690' is being disposed after spending 0ms reading results.
+2024-01-18 08:54:04.6488 DEBUG Closing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:54:04.6488 DEBUG Closed connection to database 'sampleDB' on server 'ASPLAP2690' (0ms).
+2024-01-18 08:54:04.6488 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 08:54:04.6488 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-01-18 08:54:04.6488 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-01-18 08:54:04.6488 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-18 08:54:04.6488 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-18 08:54:04.6488 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-18 08:54:04.6488 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserData.User, JWT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-18 08:54:04.6592 INFO Executed action UserRegister.RegisterController.GetUser (JWT) in 6.4023ms
+2024-01-18 08:54:04.6592 INFO Executed endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 08:54:04.6592 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:54:04.6592 DEBUG 'ApplicationDbContext' disposed.
+2024-01-18 08:54:04.6592 DEBUG Disposing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 08:54:04.6592 DEBUG Disposed connection to database '' on server '' (0ms).
+2024-01-18 08:54:04.6592 INFO Request finished HTTP/1.1 GET http://localhost:5033/Register - 200 - application/json;+charset=utf-8 72.1378ms
+2024-01-18 08:54:29.3913 DEBUG Connection id "0HN0NQH3GMPC1" received FIN.
+2024-01-18 08:54:29.3913 DEBUG Connection id "0HN0NQH3GMPC1" disconnecting.
+2024-01-18 08:54:29.3913 DEBUG Connection id "0HN0NQH3GMPC1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 08:54:29.4119 DEBUG Connection id "0HN0NQH3GMPC1" stopped.
+2024-01-18 08:56:02.6728 DEBUG Connection id "0HN0NQH3GMPC2" accepted.
+2024-01-18 08:56:02.6728 DEBUG Connection id "0HN0NQH3GMPC2" started.
+2024-01-18 08:56:02.6728 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/index.html - - -
+2024-01-18 08:56:02.6728 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-01-18 08:56:02.6728 DEBUG Request did not match any endpoints
+2024-01-18 08:56:02.6824 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-01-18 08:56:02.6824 DEBUG Response markup was updated to include browser refresh script injection.
+2024-01-18 08:56:02.6824 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:56:02.6824 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/index.html - 200 - text/html;charset=utf-8 9.2941ms
+2024-01-18 08:56:02.6953 INFO Request starting HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - - -
+2024-01-18 08:56:02.6953 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:56:02.6953 INFO Request finished HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript;+charset=utf-8 0.2118ms
+2024-01-18 08:56:02.8169 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - - -
+2024-01-18 08:56:02.8169 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-18 08:56:02.8169 DEBUG Request did not match any endpoints
+2024-01-18 08:56:02.8169 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:56:02.8169 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 3.3564ms
+2024-01-18 08:56:56.0298 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/index.html - - -
+2024-01-18 08:56:56.0298 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-01-18 08:56:56.0298 DEBUG Request did not match any endpoints
+2024-01-18 08:56:56.0361 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-01-18 08:56:56.0361 DEBUG Response markup was updated to include browser refresh script injection.
+2024-01-18 08:56:56.0361 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:56:56.0361 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/index.html - 200 - text/html;charset=utf-8 6.5757ms
+2024-01-18 08:56:56.0361 INFO Request starting HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - - -
+2024-01-18 08:56:56.0361 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:56:56.0361 INFO Request finished HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript;+charset=utf-8 0.1713ms
+2024-01-18 08:56:56.3927 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - - -
+2024-01-18 08:56:56.3927 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-18 08:56:56.3927 DEBUG Request did not match any endpoints
+2024-01-18 08:56:56.3951 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:56:56.3951 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 2.3955ms
+2024-01-18 08:57:11.2078 DEBUG Connection id "0HN0NQH3GMPC2" received FIN.
+2024-01-18 08:57:11.2078 DEBUG Connection id "0HN0NQH3GMPC2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 08:57:11.2078 DEBUG Connection id "0HN0NQH3GMPC2" disconnecting.
+2024-01-18 08:57:11.2078 DEBUG Connection id "0HN0NQH3GMPC2" stopped.
+2024-01-18 08:57:11.2078 DEBUG Connection id "0HN0NQH3GMPC3" accepted.
+2024-01-18 08:57:11.2078 DEBUG Connection id "0HN0NQH3GMPC3" started.
+2024-01-18 08:57:11.2078 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/index.html - - -
+2024-01-18 08:57:11.2078 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-01-18 08:57:11.2078 DEBUG Request did not match any endpoints
+2024-01-18 08:57:11.2241 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-01-18 08:57:11.2241 DEBUG Response markup was updated to include browser refresh script injection.
+2024-01-18 08:57:11.2241 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:57:11.2241 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/index.html - 200 - text/html;charset=utf-8 7.4845ms
+2024-01-18 08:57:11.2241 INFO Request starting HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - - -
+2024-01-18 08:57:11.2241 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:57:11.2241 INFO Request finished HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript;+charset=utf-8 0.1456ms
+2024-01-18 08:57:11.3870 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - - -
+2024-01-18 08:57:11.3870 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-18 08:57:11.3870 DEBUG Request did not match any endpoints
+2024-01-18 08:57:11.3870 DEBUG Connection id "0HN0NQH3GMPBU" completed keep alive response.
+2024-01-18 08:57:11.3870 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 2.5673ms
+2024-01-18 08:59:23.0501 DEBUG Connection id "0HN0NQH3GMPBU" disconnecting.
+2024-01-18 08:59:23.0501 DEBUG Connection id "0HN0NQH3GMPBU" stopped.
+2024-01-18 08:59:23.0501 DEBUG Connection id "0HN0NQH3GMPC3" disconnecting.
+2024-01-18 08:59:23.0501 DEBUG Connection id "0HN0NQH3GMPBU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 08:59:23.0501 DEBUG Connection id "0HN0NQH3GMPC3" stopped.
+2024-01-18 08:59:23.0501 DEBUG Connection id "0HN0NQH3GMPC3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 10:00:52.0252 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 10:00:52.1244 DEBUG Hosting starting
+2024-01-18 10:00:52.5328 INFO User profile is available. Using 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 10:00:52.5884 DEBUG Reading data from file 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys\key-092314ad-5384-4982-8bac-0e7608bf4c35.xml'.
+2024-01-18 10:00:52.6053 DEBUG Found key {092314ad-5384-4982-8bac-0e7608bf4c35}.
+2024-01-18 10:00:52.6053 DEBUG Considering key {092314ad-5384-4982-8bac-0e7608bf4c35} with expiration date 2024-04-16 03:28:48Z as default key.
+2024-01-18 10:00:52.6053 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:00:52.6218 DEBUG Decrypting secret element using Windows DPAPI.
+2024-01-18 10:00:52.6218 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:00:52.6218 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 10:00:52.6218 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 10:00:52.6218 DEBUG Using key {092314ad-5384-4982-8bac-0e7608bf4c35} as the default key.
+2024-01-18 10:00:52.6218 DEBUG Key ring with default key {092314ad-5384-4982-8bac-0e7608bf4c35} was loaded during application startup.
+2024-01-18 10:00:53.0591 INFO Now listening on: http://localhost:5033
+2024-01-18 10:00:53.0591 DEBUG Loaded hosting startup assembly JWT
+2024-01-18 10:00:53.0591 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 10:00:53.0591 INFO Application started. Press Ctrl+C to shut down.
+2024-01-18 10:00:53.0591 INFO Hosting environment: Development
+2024-01-18 10:00:53.0591 INFO Content root path: C:\Users\kalaivani.ganesan\Desktop\Task\JWT\jwt
+2024-01-18 10:00:53.0591 DEBUG Hosting started
+2024-01-18 10:11:05.2816 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 10:11:05.3576 DEBUG Hosting starting
+2024-01-18 10:11:05.4652 INFO User profile is available. Using 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 10:11:05.5295 DEBUG Reading data from file 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys\key-092314ad-5384-4982-8bac-0e7608bf4c35.xml'.
+2024-01-18 10:11:05.5510 DEBUG Found key {092314ad-5384-4982-8bac-0e7608bf4c35}.
+2024-01-18 10:11:05.5510 DEBUG Considering key {092314ad-5384-4982-8bac-0e7608bf4c35} with expiration date 2024-04-16 03:28:48Z as default key.
+2024-01-18 10:11:05.5593 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:11:05.5754 DEBUG Decrypting secret element using Windows DPAPI.
+2024-01-18 10:11:05.5754 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:11:05.5754 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 10:11:05.5754 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 10:11:05.5754 DEBUG Using key {092314ad-5384-4982-8bac-0e7608bf4c35} as the default key.
+2024-01-18 10:11:05.5754 DEBUG Key ring with default key {092314ad-5384-4982-8bac-0e7608bf4c35} was loaded during application startup.
+2024-01-18 10:11:05.7297 INFO Now listening on: http://localhost:5033
+2024-01-18 10:11:05.7297 DEBUG Loaded hosting startup assembly JWT
+2024-01-18 10:11:05.7297 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 10:11:05.7297 INFO Application started. Press Ctrl+C to shut down.
+2024-01-18 10:11:05.7297 INFO Hosting environment: Development
+2024-01-18 10:11:05.7297 INFO Content root path: C:\Users\kalaivani.ganesan\Desktop\Task\JWT\jwt
+2024-01-18 10:11:05.7297 DEBUG Hosting started
+2024-01-18 10:19:24.1540 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 10:19:24.2355 DEBUG Hosting starting
+2024-01-18 10:19:24.3243 INFO User profile is available. Using 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 10:19:24.3870 DEBUG Reading data from file 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys\key-092314ad-5384-4982-8bac-0e7608bf4c35.xml'.
+2024-01-18 10:19:24.4034 DEBUG Found key {092314ad-5384-4982-8bac-0e7608bf4c35}.
+2024-01-18 10:19:24.4034 DEBUG Considering key {092314ad-5384-4982-8bac-0e7608bf4c35} with expiration date 2024-04-16 03:28:48Z as default key.
+2024-01-18 10:19:24.4034 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:19:24.4192 DEBUG Decrypting secret element using Windows DPAPI.
+2024-01-18 10:19:24.4192 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:19:24.4351 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 10:19:24.4351 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 10:19:24.4351 DEBUG Using key {092314ad-5384-4982-8bac-0e7608bf4c35} as the default key.
+2024-01-18 10:19:24.4351 DEBUG Key ring with default key {092314ad-5384-4982-8bac-0e7608bf4c35} was loaded during application startup.
+2024-01-18 10:19:24.6051 INFO Now listening on: http://localhost:5033
+2024-01-18 10:19:24.6051 DEBUG Loaded hosting startup assembly JWT
+2024-01-18 10:19:24.6051 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 10:19:24.6051 INFO Application started. Press Ctrl+C to shut down.
+2024-01-18 10:19:24.6051 INFO Hosting environment: Development
+2024-01-18 10:19:24.6051 INFO Content root path: C:\Users\kalaivani.ganesan\Desktop\Task\JWT\jwt
+2024-01-18 10:19:24.6051 DEBUG Hosting started
+2024-01-18 10:25:40.1063 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 10:25:40.1933 DEBUG Hosting starting
+2024-01-18 10:25:40.2963 INFO User profile is available. Using 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 10:25:40.3564 DEBUG Reading data from file 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys\key-092314ad-5384-4982-8bac-0e7608bf4c35.xml'.
+2024-01-18 10:25:40.3564 DEBUG Found key {092314ad-5384-4982-8bac-0e7608bf4c35}.
+2024-01-18 10:25:40.3564 DEBUG Considering key {092314ad-5384-4982-8bac-0e7608bf4c35} with expiration date 2024-04-16 03:28:48Z as default key.
+2024-01-18 10:25:40.3564 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:25:40.3731 DEBUG Decrypting secret element using Windows DPAPI.
+2024-01-18 10:25:40.3731 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:25:40.3869 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 10:25:40.3869 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 10:25:40.3869 DEBUG Using key {092314ad-5384-4982-8bac-0e7608bf4c35} as the default key.
+2024-01-18 10:25:40.3869 DEBUG Key ring with default key {092314ad-5384-4982-8bac-0e7608bf4c35} was loaded during application startup.
+2024-01-18 10:25:40.5457 INFO Now listening on: http://localhost:5033
+2024-01-18 10:25:40.5457 DEBUG Loaded hosting startup assembly JWT
+2024-01-18 10:25:40.5457 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 10:25:40.5457 INFO Application started. Press Ctrl+C to shut down.
+2024-01-18 10:25:40.5457 INFO Hosting environment: Development
+2024-01-18 10:25:40.5457 INFO Content root path: C:\Users\kalaivani.ganesan\Desktop\Task\JWT\jwt
+2024-01-18 10:25:40.5457 DEBUG Hosting started
+2024-01-18 10:26:32.8737 DEBUG Connection id "0HN0NS7BMF19D" accepted.
+2024-01-18 10:26:32.8892 DEBUG Connection id "0HN0NS7BMF19D" started.
+2024-01-18 10:28:44.1458 DEBUG Connection id "0HN0NS7BMF19D" disconnecting.
+2024-01-18 10:28:44.1458 DEBUG Connection id "0HN0NS7BMF19D" stopped.
+2024-01-18 10:28:44.1458 DEBUG Connection id "0HN0NS7BMF19D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 10:44:54.2359 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 10:44:54.3346 DEBUG Hosting starting
+2024-01-18 10:44:54.7923 INFO User profile is available. Using 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 10:44:54.8804 DEBUG Reading data from file 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys\key-092314ad-5384-4982-8bac-0e7608bf4c35.xml'.
+2024-01-18 10:44:54.8861 DEBUG Found key {092314ad-5384-4982-8bac-0e7608bf4c35}.
+2024-01-18 10:44:54.8861 DEBUG Considering key {092314ad-5384-4982-8bac-0e7608bf4c35} with expiration date 2024-04-16 03:28:48Z as default key.
+2024-01-18 10:44:54.8861 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:44:54.9022 DEBUG Decrypting secret element using Windows DPAPI.
+2024-01-18 10:44:54.9022 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:44:54.9185 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 10:44:54.9185 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 10:44:54.9185 DEBUG Using key {092314ad-5384-4982-8bac-0e7608bf4c35} as the default key.
+2024-01-18 10:44:54.9185 DEBUG Key ring with default key {092314ad-5384-4982-8bac-0e7608bf4c35} was loaded during application startup.
+2024-01-18 10:44:55.4508 INFO Now listening on: http://localhost:5033
+2024-01-18 10:44:55.4508 DEBUG Loaded hosting startup assembly JWT
+2024-01-18 10:44:55.4508 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 10:44:55.4508 INFO Application started. Press Ctrl+C to shut down.
+2024-01-18 10:44:55.4508 INFO Hosting environment: Development
+2024-01-18 10:44:55.4508 INFO Content root path: C:\Users\kalaivani.ganesan\Desktop\Task\JWT\jwt
+2024-01-18 10:44:55.4508 DEBUG Hosting started
+2024-01-18 10:48:13.8290 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 10:48:13.9322 DEBUG Hosting starting
+2024-01-18 10:48:14.0608 INFO User profile is available. Using 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 10:48:14.1415 DEBUG Reading data from file 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys\key-092314ad-5384-4982-8bac-0e7608bf4c35.xml'.
+2024-01-18 10:48:14.1415 DEBUG Found key {092314ad-5384-4982-8bac-0e7608bf4c35}.
+2024-01-18 10:48:14.1636 DEBUG Considering key {092314ad-5384-4982-8bac-0e7608bf4c35} with expiration date 2024-04-16 03:28:48Z as default key.
+2024-01-18 10:48:14.1636 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:48:14.1842 DEBUG Decrypting secret element using Windows DPAPI.
+2024-01-18 10:48:14.1842 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:48:14.1842 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 10:48:14.1842 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 10:48:14.1842 DEBUG Using key {092314ad-5384-4982-8bac-0e7608bf4c35} as the default key.
+2024-01-18 10:48:14.1842 DEBUG Key ring with default key {092314ad-5384-4982-8bac-0e7608bf4c35} was loaded during application startup.
+2024-01-18 10:48:14.4809 INFO Now listening on: http://localhost:5033
+2024-01-18 10:48:14.4809 DEBUG Loaded hosting startup assembly JWT
+2024-01-18 10:48:14.4809 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 10:48:14.4809 INFO Application started. Press Ctrl+C to shut down.
+2024-01-18 10:48:14.4809 INFO Hosting environment: Development
+2024-01-18 10:48:14.4809 INFO Content root path: C:\Users\kalaivani.ganesan\Desktop\Task\JWT\jwt
+2024-01-18 10:48:14.4809 DEBUG Hosting started
+2024-01-18 11:06:00.9321 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 11:06:01.0138 DEBUG Hosting starting
+2024-01-18 11:06:01.1053 INFO User profile is available. Using 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 11:06:01.1539 DEBUG Reading data from file 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys\key-092314ad-5384-4982-8bac-0e7608bf4c35.xml'.
+2024-01-18 11:06:01.1539 DEBUG Found key {092314ad-5384-4982-8bac-0e7608bf4c35}.
+2024-01-18 11:06:01.1539 DEBUG Considering key {092314ad-5384-4982-8bac-0e7608bf4c35} with expiration date 2024-04-16 03:28:48Z as default key.
+2024-01-18 11:06:01.1658 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 11:06:01.1658 DEBUG Decrypting secret element using Windows DPAPI.
+2024-01-18 11:06:01.1814 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 11:06:01.1814 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 11:06:01.1814 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 11:06:01.1814 DEBUG Using key {092314ad-5384-4982-8bac-0e7608bf4c35} as the default key.
+2024-01-18 11:06:01.1814 DEBUG Key ring with default key {092314ad-5384-4982-8bac-0e7608bf4c35} was loaded during application startup.
+2024-01-18 11:06:01.3237 INFO Now listening on: http://localhost:5033
+2024-01-18 11:06:01.3237 DEBUG Loaded hosting startup assembly JWT
+2024-01-18 11:06:01.3237 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 11:06:01.3237 INFO Application started. Press Ctrl+C to shut down.
+2024-01-18 11:06:01.3237 INFO Hosting environment: Development
+2024-01-18 11:06:01.3237 INFO Content root path: C:\Users\kalaivani.ganesan\Desktop\Task\JWT\jwt
+2024-01-18 11:06:01.3237 DEBUG Hosting started
+2024-01-18 13:03:43.8575 INFO Application is shutting down...
+2024-01-18 13:03:43.8794 DEBUG Hosting stopping
+2024-01-18 13:03:43.9001 DEBUG Hosting stopped
+2024-01-18 14:09:28.2928 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 14:09:28.4623 DEBUG Hosting starting
+2024-01-18 14:09:28.5882 INFO User profile is available. Using 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 14:09:28.6512 DEBUG Reading data from file 'C:\Users\kalaivani.ganesan\AppData\Local\ASP.NET\DataProtection-Keys\key-092314ad-5384-4982-8bac-0e7608bf4c35.xml'.
+2024-01-18 14:09:28.6665 DEBUG Found key {092314ad-5384-4982-8bac-0e7608bf4c35}.
+2024-01-18 14:09:28.6665 DEBUG Considering key {092314ad-5384-4982-8bac-0e7608bf4c35} with expiration date 2024-04-16 03:28:48Z as default key.
+2024-01-18 14:09:28.6665 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 14:09:28.6826 DEBUG Decrypting secret element using Windows DPAPI.
+2024-01-18 14:09:28.6826 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 14:09:28.6826 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 14:09:28.6826 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 14:09:28.6826 DEBUG Using key {092314ad-5384-4982-8bac-0e7608bf4c35} as the default key.
+2024-01-18 14:09:28.6826 DEBUG Key ring with default key {092314ad-5384-4982-8bac-0e7608bf4c35} was loaded during application startup.
+2024-01-18 14:09:28.8695 INFO Now listening on: http://localhost:5033
+2024-01-18 14:09:28.8695 DEBUG Loaded hosting startup assembly JWT
+2024-01-18 14:09:28.8695 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 14:09:28.8695 INFO Application started. Press Ctrl+C to shut down.
+2024-01-18 14:09:28.8695 INFO Hosting environment: Development
+2024-01-18 14:09:28.8695 INFO Content root path: C:\Users\kalaivani.ganesan\Desktop\Task\JWT\jwt
+2024-01-18 14:09:28.8695 DEBUG Hosting started
+2024-01-18 14:10:46.2158 DEBUG Connection id "0HN0O04L3H84L" accepted.
+2024-01-18 14:10:46.2158 DEBUG Connection id "0HN0O04L3H84L" started.
+2024-01-18 14:10:46.3551 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/index.html - - -
+2024-01-18 14:10:46.3551 DEBUG Connection id "0HN0O04L3H84M" accepted.
+2024-01-18 14:10:46.3551 DEBUG Connection id "0HN0O04L3H84M" started.
+2024-01-18 14:10:46.3551 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-01-18 14:10:46.4203 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-01-18 14:10:46.4203 DEBUG Request did not match any endpoints
+2024-01-18 14:10:46.5188 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-01-18 14:10:46.5654 DEBUG Response markup was updated to include browser refresh script injection.
+2024-01-18 14:10:46.5654 DEBUG Connection id "0HN0O04L3H84L" completed keep alive response.
+2024-01-18 14:10:46.5654 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/index.html - 200 - text/html;charset=utf-8 212.0230ms
+2024-01-18 14:10:47.9942 INFO Request starting HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - - -
+2024-01-18 14:10:47.9942 DEBUG Connection id "0HN0O04L3H84L" completed keep alive response.
+2024-01-18 14:10:47.9942 INFO Request finished HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript;+charset=utf-8 2.5767ms
+2024-01-18 14:10:48.0861 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - - -
+2024-01-18 14:10:48.0861 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-18 14:10:48.0861 DEBUG Request did not match any endpoints
+2024-01-18 14:10:48.2173 DEBUG Connection id "0HN0O04L3H84L" completed keep alive response.
+2024-01-18 14:10:48.2173 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 131.4889ms
+2024-01-18 14:11:16.0067 INFO Request starting HTTP/1.1 GET http://localhost:5033/Register - - -
+2024-01-18 14:11:16.0153 DEBUG 1 candidate(s) found for the request path '/Register'
+2024-01-18 14:11:16.0153 DEBUG Endpoint 'UserRegister.RegisterController.GetUser (JWT)' with route pattern 'Register' is valid for the request path '/Register'
+2024-01-18 14:11:16.0153 DEBUG Request matched endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 14:11:16.0153 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 14:11:16.0153 WARN Failed to determine the https port for redirect.
+2024-01-18 14:11:16.1229 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 14:11:16.1359 DEBUG Policy authentication schemes  did not succeed
+2024-01-18 14:11:16.1359 INFO Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-01-18 14:11:16.1542 INFO AuthenticationScheme: Bearer was challenged.
+2024-01-18 14:11:16.1542 DEBUG Connection id "0HN0O04L3H84L" completed keep alive response.
+2024-01-18 14:11:16.1542 INFO Request finished HTTP/1.1 GET http://localhost:5033/Register - 401 0 - 148.0810ms
+2024-01-18 14:11:53.1955 DEBUG Connection id "0HN0O04L3H84M" received FIN.
+2024-01-18 14:11:53.1955 INFO Request starting HTTP/1.1 POST http://localhost:5033/Register/Login - application/json 53
+2024-01-18 14:11:53.1955 DEBUG 1 candidate(s) found for the request path '/Register/Login'
+2024-01-18 14:11:53.1955 DEBUG Connection id "0HN0O04L3H84M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 14:11:53.1955 DEBUG Endpoint 'UserRegister.RegisterController.Login (JWT)' with route pattern 'Register/Login' is valid for the request path '/Register/Login'
+2024-01-18 14:11:53.1955 DEBUG Request matched endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 14:11:53.1955 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 14:11:53.1955 DEBUG Connection id "0HN0O04L3H84M" disconnecting.
+2024-01-18 14:11:53.1955 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 14:11:53.1955 INFO Executing endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 14:11:53.1955 DEBUG Connection id "0HN0O04L3H84M" stopped.
+2024-01-18 14:11:53.2741 INFO Route matched with {action = "Login", controller = "Register"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(UserData.Login) on controller UserRegister.RegisterController (JWT).
+2024-01-18 14:11:53.2741 DEBUG Execution plan of authorization filters (in the following order): None
+2024-01-18 14:11:53.2741 DEBUG Execution plan of resource filters (in the following order): None
+2024-01-18 14:11:53.2741 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 14:11:53.2741 DEBUG Execution plan of exception filters (in the following order): None
+2024-01-18 14:11:53.2741 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 14:11:53.2883 DEBUG Executing controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 14:11:53.4661 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-01-18 14:11:53.4894 DEBUG Executed controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 14:11:53.4959 DEBUG Attempting to bind parameter 'login' of type 'UserData.Login' ...
+2024-01-18 14:11:53.4959 DEBUG Attempting to bind parameter 'login' of type 'UserData.Login' using the name '' in request data ...
+2024-01-18 14:11:53.4959 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 14:11:53.5078 DEBUG Connection id "0HN0O04L3H84L", Request id "0HN0O04L3H84L:00000005": started reading request body.
+2024-01-18 14:11:53.5078 DEBUG Connection id "0HN0O04L3H84L", Request id "0HN0O04L3H84L:00000005": done reading request body.
+2024-01-18 14:11:53.5078 DEBUG JSON input formatter succeeded, deserializing to type 'UserData.Login'
+2024-01-18 14:11:53.5078 DEBUG Done attempting to bind parameter 'login' of type 'UserData.Login'.
+2024-01-18 14:11:53.5078 DEBUG Done attempting to bind parameter 'login' of type 'UserData.Login'.
+2024-01-18 14:11:53.5078 DEBUG Attempting to validate the bound parameter 'login' of type 'UserData.Login' ...
+2024-01-18 14:11:53.5078 DEBUG Done attempting to validate the bound parameter 'login' of type 'UserData.Login'.
+2024-01-18 14:11:54.2971 DEBUG Entity Framework Core 8.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.1' with options: None
+2024-01-18 14:11:54.3761 DEBUG Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(user => user.emailid == __login_emailid_0)'
+2024-01-18 14:11:54.6039 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.userid (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.conformpassword (string) Required, 1], [Property: User.emailid (string) Required, 2], [Property: User.mobilenumber (long) Required, 3], [Property: User.password (string) Required, 4], [Property: User.passwordhash (byte[]), 5], [Property: User.passwordsalt (byte[]), 6], [Property: User.username (string) Required, 7] }
+        SELECT TOP(1) u.userid, u.conformpassword, u.emailid, u.mobilenumber, u.password, u.passwordhash, u.passwordsalt, u.username
+        FROM user AS u
+        WHERE u.emailid == @__login_emailid_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    UserDatabase.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-01-18 14:11:54.6397 DEBUG Creating DbConnection.
+2024-01-18 14:11:54.6677 DEBUG Created DbConnection. (23ms).
+2024-01-18 14:11:54.6677 DEBUG Opening connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:11:54.9722 DEBUG Opened connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:11:54.9756 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-01-18 14:11:54.9756 DEBUG Created DbCommand for 'ExecuteReader' (4ms).
+2024-01-18 14:11:54.9937 DEBUG Initialized DbCommand for 'ExecuteReader' (18ms).
+2024-01-18 14:11:54.9937 DEBUG Executing DbCommand [Parameters=[@__login_emailid_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+WHERE [u].[emailid] = @__login_emailid_0
+2024-01-18 14:11:55.0714 INFO Executed DbCommand (61ms) [Parameters=[@__login_emailid_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+WHERE [u].[emailid] = @__login_emailid_0
+2024-01-18 14:11:55.1217 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 14:11:55.1585 DEBUG Closing data reader to 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:11:55.1691 DEBUG A data reader for 'sampleDB' on server 'ASPLAP2690' is being disposed after spending 91ms reading results.
+2024-01-18 14:11:55.1691 DEBUG Closing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:11:55.1790 DEBUG Closed connection to database 'sampleDB' on server 'ASPLAP2690' (7ms).
+2024-01-18 14:11:55.2430 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 14:11:55.2430 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-01-18 14:11:55.2430 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-01-18 14:11:55.2430 INFO Executing ObjectResult, writing value of type 'System.String'.
+2024-01-18 14:11:55.2563 INFO Executed action UserRegister.RegisterController.Login (JWT) in 1960.9225ms
+2024-01-18 14:11:55.2563 INFO Executed endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 14:11:55.2563 DEBUG Connection id "0HN0O04L3H84L" completed keep alive response.
+2024-01-18 14:11:55.2563 DEBUG 'ApplicationDbContext' disposed.
+2024-01-18 14:11:55.2563 DEBUG Disposing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:11:55.2563 DEBUG Disposed connection to database '' on server '' (1ms).
+2024-01-18 14:11:55.2563 INFO Request finished HTTP/1.1 POST http://localhost:5033/Register/Login - 200 - text/plain;+charset=utf-8 2068.6322ms
+2024-01-18 14:12:29.2967 INFO Request starting HTTP/1.1 GET http://localhost:5033/Register - - -
+2024-01-18 14:12:29.2984 DEBUG 1 candidate(s) found for the request path '/Register'
+2024-01-18 14:12:29.2984 DEBUG Endpoint 'UserRegister.RegisterController.GetUser (JWT)' with route pattern 'Register' is valid for the request path '/Register'
+2024-01-18 14:12:29.2984 DEBUG Request matched endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 14:12:29.2984 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 14:12:29.3535 DEBUG Successfully validated the token.
+2024-01-18 14:12:29.3535 DEBUG AuthenticationScheme: Bearer was successfully authenticated.
+2024-01-18 14:12:29.3535 INFO Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-01-18 14:12:29.3535 INFO AuthenticationScheme: Bearer was forbidden.
+2024-01-18 14:12:29.3535 DEBUG Connection id "0HN0O04L3H84L" completed keep alive response.
+2024-01-18 14:12:29.3535 INFO Request finished HTTP/1.1 GET http://localhost:5033/Register - 403 0 - 62.2171ms
+2024-01-18 14:13:26.6921 DEBUG Connection id "0HN0O04L3H84N" accepted.
+2024-01-18 14:13:26.6972 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/index.html - - -
+2024-01-18 14:13:26.6972 DEBUG Connection id "0HN0O04L3H84N" started.
+2024-01-18 14:13:26.6972 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-01-18 14:13:26.6972 DEBUG Request did not match any endpoints
+2024-01-18 14:13:26.6972 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-01-18 14:13:26.6972 DEBUG Response markup was updated to include browser refresh script injection.
+2024-01-18 14:13:26.6972 DEBUG Connection id "0HN0O04L3H84L" completed keep alive response.
+2024-01-18 14:13:26.6972 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/index.html - 200 - text/html;charset=utf-8 7.6688ms
+2024-01-18 14:13:26.7528 INFO Request starting HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - - -
+2024-01-18 14:13:26.7528 DEBUG Connection id "0HN0O04L3H84L" completed keep alive response.
+2024-01-18 14:13:26.7528 INFO Request finished HTTP/1.1 GET http://localhost:5033/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript;+charset=utf-8 0.3489ms
+2024-01-18 14:13:27.1819 INFO Request starting HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - - -
+2024-01-18 14:13:27.1819 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-18 14:13:27.1819 DEBUG Request did not match any endpoints
+2024-01-18 14:13:27.1819 DEBUG Connection id "0HN0O04L3H84L" completed keep alive response.
+2024-01-18 14:13:27.1819 INFO Request finished HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 6.2963ms
+2024-01-18 14:14:24.4040 INFO Request starting HTTP/1.1 POST http://localhost:5033/Register - application/json 156
+2024-01-18 14:14:24.4040 DEBUG 1 candidate(s) found for the request path '/Register'
+2024-01-18 14:14:24.4040 DEBUG Endpoint 'UserRegister.RegisterController.PostUser (JWT)' with route pattern 'Register' is valid for the request path '/Register'
+2024-01-18 14:14:24.4040 DEBUG Request matched endpoint 'UserRegister.RegisterController.PostUser (JWT)'
+2024-01-18 14:14:24.4040 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 14:14:24.4040 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 14:14:24.4040 INFO Executing endpoint 'UserRegister.RegisterController.PostUser (JWT)'
+2024-01-18 14:14:24.4040 INFO Route matched with {action = "PostUser", controller = "Register"}. Executing controller action with signature UserData.User PostUser(UserData.User) on controller UserRegister.RegisterController (JWT).
+2024-01-18 14:14:24.4040 DEBUG Execution plan of authorization filters (in the following order): None
+2024-01-18 14:14:24.4040 DEBUG Execution plan of resource filters (in the following order): None
+2024-01-18 14:14:24.4040 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 14:14:24.4040 DEBUG Execution plan of exception filters (in the following order): None
+2024-01-18 14:14:24.4040 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 14:14:24.4040 DEBUG Executing controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 14:14:24.4040 DEBUG Executed controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 14:14:24.4040 DEBUG Attempting to bind parameter 'user' of type 'UserData.User' ...
+2024-01-18 14:14:24.4040 DEBUG Attempting to bind parameter 'user' of type 'UserData.User' using the name '' in request data ...
+2024-01-18 14:14:24.4040 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 14:14:24.4169 DEBUG Connection id "0HN0O04L3H84L", Request id "0HN0O04L3H84L:0000000A": started reading request body.
+2024-01-18 14:14:24.4169 DEBUG Connection id "0HN0O04L3H84L", Request id "0HN0O04L3H84L:0000000A": done reading request body.
+2024-01-18 14:14:24.4169 DEBUG JSON input formatter succeeded, deserializing to type 'UserData.User'
+2024-01-18 14:14:24.4169 DEBUG Done attempting to bind parameter 'user' of type 'UserData.User'.
+2024-01-18 14:14:24.4169 DEBUG Done attempting to bind parameter 'user' of type 'UserData.User'.
+2024-01-18 14:14:24.4169 DEBUG Attempting to validate the bound parameter 'user' of type 'UserData.User' ...
+2024-01-18 14:14:24.4169 DEBUG Done attempting to validate the bound parameter 'user' of type 'UserData.User'.
+2024-01-18 14:14:24.4435 DEBUG Entity Framework Core 8.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.1' with options: None
+2024-01-18 14:14:24.4651 DEBUG 'ApplicationDbContext' generated a temporary value for the property 'User.userid'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 14:14:24.4651 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 14:14:24.4773 DEBUG SaveChanges starting for 'ApplicationDbContext'.
+2024-01-18 14:14:24.4773 DEBUG DetectChanges starting for 'ApplicationDbContext'.
+2024-01-18 14:14:24.4975 DEBUG DetectChanges completed for 'ApplicationDbContext'.
+2024-01-18 14:14:24.5642 DEBUG Creating DbConnection.
+2024-01-18 14:14:24.5642 DEBUG Created DbConnection. (0ms).
+2024-01-18 14:14:24.5642 DEBUG Opening connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:14:24.5642 DEBUG Opened connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:14:24.5642 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-01-18 14:14:24.5642 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 14:14:24.5642 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 14:14:24.5642 DEBUG Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int64), @p3='?' (Size = 4000), @p4='?' (Size = 8000) (DbType = Binary), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [user] ([conformpassword], [emailid], [mobilenumber], [password], [passwordhash], [passwordsalt], [username])
+OUTPUT INSERTED.[userid]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-01-18 14:14:24.5761 INFO Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int64), @p3='?' (Size = 4000), @p4='?' (Size = 8000) (DbType = Binary), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [user] ([conformpassword], [emailid], [mobilenumber], [password], [passwordhash], [passwordsalt], [username])
+OUTPUT INSERTED.[userid]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-01-18 14:14:24.5866 DEBUG The foreign key property 'User.userid' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-01-18 14:14:24.5866 DEBUG Closing data reader to 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:14:24.5866 DEBUG A data reader for 'sampleDB' on server 'ASPLAP2690' is being disposed after spending 16ms reading results.
+2024-01-18 14:14:24.5866 DEBUG Closing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:14:24.5866 DEBUG Closed connection to database 'sampleDB' on server 'ASPLAP2690' (0ms).
+2024-01-18 14:14:24.6053 DEBUG An entity of type 'User' tracked by 'ApplicationDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 14:14:24.6053 DEBUG SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2024-01-18 14:14:24.6192 INFO New User Added kalaivani78
+2024-01-18 14:14:24.6192 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 14:14:24.6192 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-01-18 14:14:24.6192 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-01-18 14:14:24.6192 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-18 14:14:24.6192 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-18 14:14:24.6192 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-18 14:14:24.6192 INFO Executing ObjectResult, writing value of type 'UserData.User'.
+2024-01-18 14:14:24.6353 INFO Executed action UserRegister.RegisterController.PostUser (JWT) in 225.9857ms
+2024-01-18 14:14:24.6353 INFO Executed endpoint 'UserRegister.RegisterController.PostUser (JWT)'
+2024-01-18 14:14:24.6353 DEBUG Connection id "0HN0O04L3H84L" completed keep alive response.
+2024-01-18 14:14:24.6353 DEBUG 'ApplicationDbContext' disposed.
+2024-01-18 14:14:24.6353 DEBUG Disposing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:14:24.6353 DEBUG Disposed connection to database '' on server '' (0ms).
+2024-01-18 14:14:24.6353 INFO Request finished HTTP/1.1 POST http://localhost:5033/Register - 200 - application/json;+charset=utf-8 231.7898ms
+2024-01-18 14:14:53.2781 DEBUG Connection id "0HN0O04L3H84N" received FIN.
+2024-01-18 14:14:53.2781 INFO Request starting HTTP/1.1 POST http://localhost:5033/Register/Login - application/json 64
+2024-01-18 14:14:53.2781 DEBUG 1 candidate(s) found for the request path '/Register/Login'
+2024-01-18 14:14:53.2781 DEBUG Endpoint 'UserRegister.RegisterController.Login (JWT)' with route pattern 'Register/Login' is valid for the request path '/Register/Login'
+2024-01-18 14:14:53.2781 DEBUG Request matched endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 14:14:53.2781 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 14:14:53.2781 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 14:14:53.2781 INFO Executing endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 14:14:53.2781 DEBUG Connection id "0HN0O04L3H84N" disconnecting.
+2024-01-18 14:14:53.2781 DEBUG Connection id "0HN0O04L3H84N" stopped.
+2024-01-18 14:14:53.2781 INFO Route matched with {action = "Login", controller = "Register"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(UserData.Login) on controller UserRegister.RegisterController (JWT).
+2024-01-18 14:14:53.2781 DEBUG Execution plan of authorization filters (in the following order): None
+2024-01-18 14:14:53.2781 DEBUG Execution plan of resource filters (in the following order): None
+2024-01-18 14:14:53.2781 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 14:14:53.2781 DEBUG Execution plan of exception filters (in the following order): None
+2024-01-18 14:14:53.2781 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 14:14:53.2781 DEBUG Executing controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 14:14:53.2781 DEBUG Connection id "0HN0O04L3H84N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 14:14:53.2781 DEBUG Executed controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 14:14:53.2781 DEBUG Attempting to bind parameter 'login' of type 'UserData.Login' ...
+2024-01-18 14:14:53.2781 DEBUG Attempting to bind parameter 'login' of type 'UserData.Login' using the name '' in request data ...
+2024-01-18 14:14:53.2781 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 14:14:53.2781 DEBUG Connection id "0HN0O04L3H84L", Request id "0HN0O04L3H84L:0000000B": started reading request body.
+2024-01-18 14:14:53.2781 DEBUG Connection id "0HN0O04L3H84L", Request id "0HN0O04L3H84L:0000000B": done reading request body.
+2024-01-18 14:14:53.2781 DEBUG JSON input formatter succeeded, deserializing to type 'UserData.Login'
+2024-01-18 14:14:53.2781 DEBUG Done attempting to bind parameter 'login' of type 'UserData.Login'.
+2024-01-18 14:14:53.2781 DEBUG Done attempting to bind parameter 'login' of type 'UserData.Login'.
+2024-01-18 14:14:53.2781 DEBUG Attempting to validate the bound parameter 'login' of type 'UserData.Login' ...
+2024-01-18 14:14:53.2781 DEBUG Done attempting to validate the bound parameter 'login' of type 'UserData.Login'.
+2024-01-18 14:14:53.3873 DEBUG Entity Framework Core 8.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.1' with options: None
+2024-01-18 14:14:53.3873 DEBUG Creating DbConnection.
+2024-01-18 14:14:53.3873 DEBUG Created DbConnection. (0ms).
+2024-01-18 14:14:53.3873 DEBUG Opening connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:14:53.3873 DEBUG Opened connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:14:53.3873 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-01-18 14:14:53.3873 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 14:14:53.3873 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 14:14:53.3873 DEBUG Executing DbCommand [Parameters=[@__login_emailid_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+WHERE [u].[emailid] = @__login_emailid_0
+2024-01-18 14:14:53.3873 INFO Executed DbCommand (1ms) [Parameters=[@__login_emailid_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+WHERE [u].[emailid] = @__login_emailid_0
+2024-01-18 14:14:53.3873 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 14:14:53.3873 DEBUG Closing data reader to 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:14:53.3873 DEBUG A data reader for 'sampleDB' on server 'ASPLAP2690' is being disposed after spending 0ms reading results.
+2024-01-18 14:14:53.3873 DEBUG Closing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:14:53.3873 DEBUG Closed connection to database 'sampleDB' on server 'ASPLAP2690' (0ms).
+2024-01-18 14:14:53.3873 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 14:14:53.3873 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-01-18 14:14:53.3873 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-01-18 14:14:53.3873 INFO Executing ObjectResult, writing value of type 'System.String'.
+2024-01-18 14:14:53.3873 INFO Executed action UserRegister.RegisterController.Login (JWT) in 114.1412ms
+2024-01-18 14:14:53.3873 INFO Executed endpoint 'UserRegister.RegisterController.Login (JWT)'
+2024-01-18 14:14:53.3873 DEBUG Connection id "0HN0O04L3H84L" completed keep alive response.
+2024-01-18 14:14:53.3873 DEBUG 'ApplicationDbContext' disposed.
+2024-01-18 14:14:53.3873 DEBUG Disposing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:14:53.3873 DEBUG Disposed connection to database '' on server '' (0ms).
+2024-01-18 14:14:53.3873 INFO Request finished HTTP/1.1 POST http://localhost:5033/Register/Login - 200 - text/plain;+charset=utf-8 117.1043ms
+2024-01-18 14:15:24.5905 INFO Request starting HTTP/1.1 GET http://localhost:5033/Register - - -
+2024-01-18 14:15:24.5905 DEBUG 1 candidate(s) found for the request path '/Register'
+2024-01-18 14:15:24.5905 DEBUG Endpoint 'UserRegister.RegisterController.GetUser (JWT)' with route pattern 'Register' is valid for the request path '/Register'
+2024-01-18 14:15:24.5905 DEBUG Request matched endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 14:15:24.5905 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-01-18 14:15:24.5905 DEBUG Successfully validated the token.
+2024-01-18 14:15:24.5905 DEBUG AuthenticationScheme: Bearer was successfully authenticated.
+2024-01-18 14:15:24.5905 DEBUG Authorization was successful.
+2024-01-18 14:15:24.5905 INFO Executing endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 14:15:24.6029 INFO Route matched with {action = "GetUser", controller = "Register"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[UserData.User] GetUser() on controller UserRegister.RegisterController (JWT).
+2024-01-18 14:15:24.6029 DEBUG Execution plan of authorization filters (in the following order): None
+2024-01-18 14:15:24.6029 DEBUG Execution plan of resource filters (in the following order): None
+2024-01-18 14:15:24.6029 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 14:15:24.6029 DEBUG Execution plan of exception filters (in the following order): None
+2024-01-18 14:15:24.6029 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 14:15:24.6029 DEBUG Executing controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 14:15:24.6029 DEBUG Executed controller factory for controller UserRegister.RegisterController (JWT)
+2024-01-18 14:15:24.6029 INFO User List !!!!!
+2024-01-18 14:15:24.6029 DEBUG Entity Framework Core 8.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.1' with options: None
+2024-01-18 14:15:24.6029 DEBUG Compiling query expression: 
+'DbSet<User>()'
+2024-01-18 14:15:24.6029 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.userid (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.conformpassword (string) Required, 1], [Property: User.emailid (string) Required, 2], [Property: User.mobilenumber (long) Required, 3], [Property: User.password (string) Required, 4], [Property: User.passwordhash (byte[]), 5], [Property: User.passwordsalt (byte[]), 6], [Property: User.username (string) Required, 7] }
+        SELECT u.userid, u.conformpassword, u.emailid, u.mobilenumber, u.password, u.passwordhash, u.passwordsalt, u.username
+        FROM user AS u), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    UserDatabase.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-01-18 14:15:24.6029 DEBUG Creating DbConnection.
+2024-01-18 14:15:24.6029 DEBUG Created DbConnection. (0ms).
+2024-01-18 14:15:24.6029 DEBUG Opening connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:15:24.6029 DEBUG Opened connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:15:24.6029 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-01-18 14:15:24.6029 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 14:15:24.6029 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-18 14:15:24.6029 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+2024-01-18 14:15:24.6182 INFO Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[userid], [u].[conformpassword], [u].[emailid], [u].[mobilenumber], [u].[password], [u].[passwordhash], [u].[passwordsalt], [u].[username]
+FROM [user] AS [u]
+2024-01-18 14:15:24.6182 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 14:15:24.6182 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 14:15:24.6182 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 14:15:24.6182 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-18 14:15:24.6182 DEBUG Closing data reader to 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:15:24.6182 DEBUG A data reader for 'sampleDB' on server 'ASPLAP2690' is being disposed after spending 0ms reading results.
+2024-01-18 14:15:24.6182 DEBUG Closing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:15:24.6182 DEBUG Closed connection to database 'sampleDB' on server 'ASPLAP2690' (0ms).
+2024-01-18 14:15:24.6182 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 14:15:24.6182 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-01-18 14:15:24.6182 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-01-18 14:15:24.6182 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-18 14:15:24.6182 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-18 14:15:24.6182 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-18 14:15:24.6182 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserData.User, JWT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-18 14:15:24.6182 INFO Executed action UserRegister.RegisterController.GetUser (JWT) in 18.8024ms
+2024-01-18 14:15:24.6182 INFO Executed endpoint 'UserRegister.RegisterController.GetUser (JWT)'
+2024-01-18 14:15:24.6182 DEBUG Connection id "0HN0O04L3H84L" completed keep alive response.
+2024-01-18 14:15:24.6182 DEBUG 'ApplicationDbContext' disposed.
+2024-01-18 14:15:24.6182 DEBUG Disposing connection to database 'sampleDB' on server 'ASPLAP2690'.
+2024-01-18 14:15:24.6182 DEBUG Disposed connection to database '' on server '' (0ms).
+2024-01-18 14:15:24.6182 INFO Request finished HTTP/1.1 GET http://localhost:5033/Register - 200 - application/json;+charset=utf-8 31.6747ms
+2024-01-18 14:17:36.2026 DEBUG Connection id "0HN0O04L3H84L" disconnecting.
+2024-01-18 14:17:36.2026 DEBUG Connection id "0HN0O04L3H84L" stopped.
+2024-01-18 14:17:36.2026 DEBUG Connection id "0HN0O04L3H84L" sending FIN because: "The Socket transport's send loop completed gracefully."
